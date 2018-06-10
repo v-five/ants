@@ -1,0 +1,44 @@
+#wrapper {
+    margin: auto;
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#playfield {
+    margin: auto;
+    width: auto;
+    border: 1px solid #848484;
+}
+
+.field {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #848484;
+    display: inline-block;
+}
+
+.active {
+    background-color: #696969;
+}
+
+.ant {
+    background-image: url('../images/ant.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ant-left {
+    transform: rotate(90deg);
+}
+
+.ant-right {
+    transform: rotate(-90deg);
+}
+
+.ant-down {
+    transform: rotate(180deg);
+}

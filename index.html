@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="menu">
+            <input type="text" id="config-file" placeholder="Ex: config1"/>
+            <input type="number" id="game-steps" />
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="next">Step</button>
+            <button id="verbose">Start in verbose mode</button>
+            <div id="game-list"></div>
+        </div>
+        <div id="wrapper">
+            <div id="playfield"></div>
+        </div>
+        
+        <script src="js/Game.js"></script>
+        <script src="js/Playfield.js"></script>
+        <script src="js/Ant.js"></script>
+        <script src="js/Row.js"></script>
+        <script src="js/Field.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
