@@ -1,5 +1,5 @@
 var Field = function(x, y, isActive){
-    this.element = $('<div>').addClass('field').text(x + ',' + y);
+    this.element = $('<div>').addClass('field');
     this.coordinates = {x: x, y: y};
     this.isActive = isActive;
     this.ants = 0;
